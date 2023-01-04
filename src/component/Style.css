@@ -1,0 +1,218 @@
+*{
+   box-sizing: border-box; 
+   font-family: Encode Sans Expanded,sans-serif;
+   margin: 0;
+   padding: 0;
+}
+ 
+/* ---------------------APP.js PageStart----------------------- */
+
+#forex{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 114px;
+}
+
+.col{
+    color: rgb(250, 251, 251);
+    font-size: 1rem;
+    padding-left: 6px;
+    text-decoration: none;    
+}
+
+.link{
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #000;
+}
+
+.colo{
+    color: #fff;
+    text-decoration: none;
+}
+
+#sign{
+    color: rgba(0, 0, 0, 0.911);
+    background: rgb(1, 191, 113);
+    padding: 10px 22px;
+    font-size: 16px;
+    border-radius: 50px;
+ }
+
+#sign :hover{
+    background-color: #fff;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+/* ---------------------FOREXRUPEE.js PageStart----------------------- */
+
+.main{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+video{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+.content h1{
+    line-height: 2;
+    font-size: 48px;
+    text-align: center;
+    word-spacing: 2px;
+}
+
+.content p{
+    font-size: 25px;
+    max-width: 623px;
+    text-align: center;
+    font-weight: 100;
+}
+
+.content p span{
+    font-weight: 900;
+}
+
+
+ /* ---------------------ABOUT.js PageStart----------------------- */
+
+.About{
+    color: #fff;
+    background-color: rgb(4, 4, 4);
+}
+
+.About img{
+    max-width: 494px;
+    margin-left: 48.5rem;
+    margin-top: -21.4rem;
+}
+
+.About .paragraph{
+    margin-left: 15.5rem;
+    padding-top: 13.2rem;
+}
+
+.About h6{
+    color: rgb(1, 191, 113);
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.About h1{
+    margin-bottom: 24px;
+    font-size: 48px;
+    line-height: 1.1;
+    max-width: 347px;
+    min-width: 503px;
+    font-weight: bolder;
+}
+
+.About p{
+    max-width: 440px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+
+/* ---------------------DISCOVER.js PageStart----------------------- */
+
+.Discover img{
+    max-width: 495px;
+    margin-left: 15.6rem;
+    margin-top: 13.8rem;
+}
+
+.Discover .paragraph{
+    margin-left: 48.5rem;
+    margin-top: -427px;
+}
+
+.Discover h6{
+    color: rgb(1, 191, 113);
+    font-size: 16px;
+    line-height: 53.1px;
+    letter-spacing: 1.4px;
+}
+
+.Discover h1{
+    margin-bottom: 24px;
+    font-size: 48px;
+    line-height: 1.1;
+    max-width: 347px;
+    min-width: 503px;
+    font-weight: bolder;
+}
+
+.Discover p{
+    max-width: 440px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+
+
+/* ---------------------SERVICES.js PageStart----------------------- */
+
+/* ---------------------SIGNUP.js PageStart----------------------- */
+
+.SignUp img{
+    width: 31rem;
+    margin-left: 48.5rem;
+    margin-top: -21.4rem;
+}
+
+.SignUp .paragraph{
+    margin-left: 15.5rem;
+    padding-top: 13.2rem;
+}
+
+.SignUp h6{
+    color: rgb(1, 191, 113);
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.SignUp h1{
+    margin-bottom: 24px;
+    font-size: 48px;
+    line-height: 1.1;
+    max-width: 347px;
+    min-width: 503px;
+    font-weight: bolder;
+}
+
+.SignUp p{
+    max-width: 440px;
+    font-size: 18px;
+    line-height: 24px;
+}
