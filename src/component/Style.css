@@ -180,6 +180,50 @@ video{
 
 /* ---------------------SERVICES.js PageStart----------------------- */
 
+#Services{
+    background-color: #000;
+    height: 88.7vh;
+}
+
+#Services h1{
+    color: #fff ;
+  text-align: center;
+}
+
+.Boxes{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 11rem;
+}
+
+.Boxes .box{
+    height: 20rem;
+    width: 18rem;
+    text-align: center;
+    background-color: #fff;
+}
+
+.Boxes img{
+    height: 160px;
+    width: 160px;
+    margin-bottom: 10px; 
+}
+
+.Boxes h2{
+    font-size: 1rem;
+}
+
+.Boxes p{
+    font-size: 1rem;
+    max-width: 14rem;
+    margin-left: 1.5rem;
+}
+
+
 /* ---------------------SIGNUP.js PageStart----------------------- */
 
 .SignUp img{
