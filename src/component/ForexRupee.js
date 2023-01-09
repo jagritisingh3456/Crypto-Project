@@ -29,26 +29,3 @@ const ForexRupee = () => {
 }
 
 export default ForexRupee
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
