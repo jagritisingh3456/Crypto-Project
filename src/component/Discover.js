@@ -12,6 +12,9 @@ const SignUp = () => {
       <p >We have you covered no matter where you are 
       located. All you need is an internet connection 
       and a phone or computer.</p> 
+      <div className='startNow'>
+      <a href='http://localhost:3000/forexRupee'>Learn More</a>
+      </div>
     </div> 
     </div>
     </>

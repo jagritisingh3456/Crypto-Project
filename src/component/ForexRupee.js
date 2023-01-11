@@ -13,6 +13,9 @@ const ForexRupee = () => {
     <div className='content'>
     <h1>Virtual Money Made Easy</h1>
     <p>Sign up for a new account today and receive <span>$150</span>  bonus.</p>
+    <div className='getStarted'>
+      <a href='http://localhost:3000/signUp'>Get Started</a>
+      </div>
     </div> 
 
     {/* <div>

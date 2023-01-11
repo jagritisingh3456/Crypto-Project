@@ -11,6 +11,9 @@ const About = () => {
       <p>Get access to our exclusive app that allows you 
       to send unlimited transactions without getting
       charged any fees.</p>
+      <div className='getStarted'>
+      <a href='http://localhost:3000/forexRupee'>Get Started</a>
+      </div>
     </div>  
     <img src="https://forex-crypto-webpage.netlify.app/static/media/svg-1.3c2ebf1d8253f37989e7d70be58dfc69.svg" 
     alt="logo" />
@@ -20,3 +23,5 @@ const About = () => {
 }
 
 export default About
+
+

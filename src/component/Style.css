@@ -25,7 +25,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #000;
+    background-color: rgb(16, 21, 34);
 }
 
 .colo{
@@ -104,7 +104,7 @@ video{
 
 .About{
     color: #fff;
-    background-color: rgb(4, 4, 4);
+    background-color: rgb(16, 21, 34);
 }
 
 .About img{
@@ -115,7 +115,7 @@ video{
 
 .About .paragraph{
     margin-left: 15.5rem;
-    padding-top: 13.2rem;
+    padding-top: 7.2rem;
 }
 
 .About h6{
@@ -140,6 +140,22 @@ video{
     max-width: 440px;
     font-size: 18px;
     line-height: 24px;
+}
+
+.getStarted{
+    height: 3rem;
+    width: 9rem;
+    display: flex;
+    background: rgb(1, 191, 113);
+    justify-content: center;
+    border-radius: 3rem;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.getStarted a{
+    text-decoration: none;
+    color: #000;
 }
 
 
@@ -183,7 +199,7 @@ video{
 /* ---------------------SERVICES.js PageStart----------------------- */
 
 #Services{
-    background-color: #000;
+    background-color: rgb(16, 21, 34);
     height: 88.7vh;
 }
 
@@ -228,6 +244,10 @@ video{
 
 /* ---------------------SIGNUP.js PageStart----------------------- */
 
+.SignUp{
+    height: 60rem;
+}
+
 .SignUp img{
     width: 31rem;
     margin-left: 48.5rem;
@@ -252,13 +272,189 @@ video{
     margin-bottom: 24px;
     font-size: 48px;
     line-height: 1.1;
-    max-width: 347px;
-    min-width: 503px;
+    max-width: 400px;
     font-weight: bolder;
 }
 
 .SignUp p{
-    max-width: 440px;
+    max-width: 426px;
     font-size: 18px;
     line-height: 24px;
+}
+
+.startNow{
+    height: 3rem;
+    width: 9rem;
+    display: flex;
+    background: rgb(1, 6, 6);
+    justify-content: center;
+    border-radius: 3rem;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.startNow a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.startNow a :hover{
+    background: rgb(1, 191, 113);
+}
+
+ /*     -------------------------- Footer Start ------------------------*/
+
+  footer{
+    background-color: rgb(16, 21, 34);
+    height: 23.5rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+ }  
+ 
+ .Ggrid{
+    /* padding: 48px 24px; */
+    display: flex;
+    flex-direction: column;
+    /* -webkit-box-pack: center; */
+    justify-content: center;
+    /* -webkit-box-align: center; */
+    align-items: center;
+    /* max-width: 1100px;
+    margin: 0px auto; */
+ }
+
+ .grid{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 16px;
+    /* text-align: left; */
+    width: 160px;
+    /* box-sizing: border-box; */
+ }
+
+ .grid h1{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+ }
+
+ .Grid{
+    display: flex;
+    /* -webkit-box-pack: center; */
+    justify-content: center;
+ }
+
+ .Grid1{
+    display: flex;    
+ }
+
+ .grid a{
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+ }
+
+ .lastLine{
+    display: flex;
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+ }
+
+ .lastLine a{
+    /* font-size: 1rem; */
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    /* margin-left: -25rem; */
+    text-decoration: none;
+ }
+
+ .lastLine small{
+    margin-left: 11rem;
+ }
+
+.lastLine .icons{
+    margin-left: 10rem;
+} 
+
+ .lastLine .icon{
+    margin-left: 25px;    
+ }
+
+ /* --------------------------------------SignIn-------------------------------- */
+
+/* .sign-In{
+    min-height: 692px;
+    position: fixed;
+    inset: 0px;
+    z-index: 0;
+    overflow: hidden;
+    background: rgb(1, 191, 113);
+} */
+
+.heading{
+        /* min-height: 692px; */
+        position: fixed;
+        /* height: 93vh; */
+        inset: 0px;
+        color: #fff;
+        /* z-index: 0; */
+        /* overflow: hidden; */
+        background: rgb(1, 191, 113);
+}
+
+.heading a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.heading .pee{
+    padding: 2rem 3rem;
+}
+
+.heading form{
+    background: rgb(1, 1, 1);
+    height: 33rem;
+    width: 24rem;
+    display: grid;
+    margin-left: 34.5rem;
+    margin-top: 1.5rem;
+    padding: 80px 32px;
+    border-radius: 4px;
+    box-shadow: rgb(0 0 0 / 90%) 0px 1px 3px;
+}
+
+.heading form h1{
+    margin-bottom: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.heading form label{
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+}
+
+.heading form input{
+    padding: 16px;
+    margin-bottom: 32px;
+    border: none;
+    border-radius: 4px;
+}
+
+.heading form button{
+    padding: 16px;
+    margin-bottom: 32px;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    background: rgb(1, 191, 113);
+    border-radius: 4px;
 }
