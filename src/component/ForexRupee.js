@@ -17,16 +17,6 @@ const ForexRupee = () => {
       <a href='http://localhost:3000/signUp'>Get Started</a>
       </div>
     </div> 
-
-    {/* <div>
-       <Router> 
-            <Link to="/getStarted">Get Started</Link>
-         <Routes>
-           <Route path="/getStarted" element={<SignUp/>}>Get Started</Route>
-         </Routes>
-       </Router>
-    </div>  */}
-
     </div>
   )
 }
