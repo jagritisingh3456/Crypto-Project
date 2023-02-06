@@ -1,7 +1,5 @@
 import React from 'react';
-import { Link, Route, Router, Routes } from 'react-router-dom';
 import videoBg from './videoBg.mp4';
-import SignUp from './SignUp';
 
 const ForexRupee = () => {
   return (

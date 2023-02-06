@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
 *{
    box-sizing: border-box; 
    font-family: Encode Sans Expanded,sans-serif;
@@ -444,3 +446,20 @@ video{
     background: rgb(1, 191, 113);
     border-radius: 4px;
 }
+
+/* media queries  */
+
+
+/* @media(max-width: 768px){
+    .About{
+        height: 70rem;
+        margin-left: -221px;
+    }
+    .paragraph h1{
+        min-width: 0px;
+    }
+    img{   
+            
+        margin-bottom: -32rem;
+    }
+} */
