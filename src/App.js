@@ -23,7 +23,7 @@ function App() {
     </nav>
 
     <Routes>
-      <Route path="/forexRupee" element={<ForexRupee/>}>ForexRupee</Route>
+      <Route path="/" element={<ForexRupee/>}>ForexRupee</Route>
       <Route path="/about" element={<About/>}>Home</Route>
       <Route path="/discover" element={<Discover/>}>AboutUs</Route>
       <Route path="/services" element={<Services/>}>StopWatch</Route>
